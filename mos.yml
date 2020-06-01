@@ -3,12 +3,28 @@ type: lib
 description: An empty lib that does nothing
 version: 1.0
 
+includes:
+  - src/components/mcommon/include
+  - src/components/mconfig/include
+  - src/components/mdebug/include
+  - src/components/mespnow/include
+  - src/components/mlink/include
+  - src/components/mupgrade/include
+  - src/components/mwifi/include
 sources:
-  - src
+  - src/components/mcommon
+  - src/components/mconfig
+  - src/components/mdebug
+  - src/components/mespnow
+  - src/components/mlink
+  - src/components/mupgrade
+  - src/components/mwifi
+
 filesystem:
   - fs
 config_schema:
 libs:
+  - name: Mesh-wifi
 
 tags:
   - c
