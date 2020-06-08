@@ -24,7 +24,7 @@ filesystem:
   - fs
 config_schema:
 libs:
-  - name: Mesh-wifi
+  - name: Mesh-Library
 
 tags:
   - c
